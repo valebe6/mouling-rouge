@@ -1,21 +1,12 @@
 const Login = () => {
-  function verificar() {
-    let user = document.querySelector("#user");
-    if (user == "hola") {
-      console.log("holaaaa");
-    }
-  }
-
   return (
     <section>
       <form action="" className="formulario">
         <label>Usuario</label>
-        <input type="text" id="user" />
+        <input type="text" />
         <label>Contraseña</label>
         <input type="password" />
-        <button type="button" onClick={verificar}>
-          Iniciar Sesion
-        </button>
+        <button type="button">Iniciar Sesion</button>
       </form>
     </section>
   );
