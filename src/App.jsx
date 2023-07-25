@@ -1,9 +1,18 @@
 import Login from "./components/layouts/Login";
+import { createBrowserRouter,RouterProvider } from "react-router-dom";
+
+const router=createBrowserRouter([{
+  path: '/',
+  element:<Login/>
+},
+{
+}])
+
 
 function App() {
   return (
     <>
-      <Login />
+    <RouterProvider router={router}/>
     </>
   );
 }
