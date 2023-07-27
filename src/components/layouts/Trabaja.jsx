@@ -3,7 +3,7 @@ import React from 'react'
 const Trabaja = () => {
   return (
     <section className='BotonTrabaja'>
-      <button type="button"   data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Trabaja con nosotros</button>
+      <button type="button"   data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Te contactamos</button>
 
       <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div className="modal-dialog">

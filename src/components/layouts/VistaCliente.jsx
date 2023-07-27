@@ -31,15 +31,12 @@ const VistaCliente = () => {
             <div className="modal-body">
               <section>
                 <ol>
-                  <ul>1. da click en la imagen</ul>
-                  <ul>2. Escoge el genero de tu acompañante</ul>
+                  <ul>1. Mira los videos.</ul>
+                  <ul>2. Mira los avatares (acompañantes)</ul>
                   <ul>
-                    3. el escenario que desees (recuerda que estos lugares los
-                    encuentras en la cede Moulin Rouge en realidad virtual)
+                    3. Recuerda que debes tener estos datos para poder reservar
                   </ul>
-                  <ul>escoge el juego que deseas</ul>
-                  <ul>4. y el juego</ul>
-                  <ul>5. por ultimo da click en la flecha para jugar</ul>
+                  <ul>5. por ultimo da click en el boron reservar al final de la pagina, para realizar tu reserva y poder disfrutar de nuestros servicios.</ul>
                   <ul>
                     " Recuerda que si tienes un@ acompañante regular puedes
                     hacer parte de otros servicios."

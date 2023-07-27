@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import ReactPlayer from 'react-player';
 import VistaCliente from '../VistaCliente';
 
 
@@ -12,7 +11,7 @@ const Administrador = () => {
         <button>Estado financiero</button>
         <button>Empleados</button>
         <button>Salas</button>
-        <Link className='cerrar' to={'/Cerrar'}>Cerrar sesion</Link>
+        <Link className='cerrar' to={'/'}>Cerrar sesion</Link>
     </header>  
     <VistaCliente />
     <button>Crear</button>
