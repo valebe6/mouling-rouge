@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/img/logo.png";
 const Login = () => {
@@ -9,7 +10,7 @@ const Login = () => {
         <input type="text" />
         <label>Contraseña</label>
         <input type="password" />
-        <Link to={"/home"} type="btnLogin">
+        <Link to={""} type="btnLogin">
           Iniciar Sesion
         </Link>
       </form>

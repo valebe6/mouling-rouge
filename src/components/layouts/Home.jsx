@@ -1,3 +1,4 @@
+import React from "react";
 import Header from "../helpers/Header";
 import Carrusel from "./Carrusel";
 import Juego from "./Juego";
@@ -5,36 +6,26 @@ import Nombre from "./Nombre";
 import Quienes from "./Quienes";
 import Targeta from "./Targeta";
 
-
-
-
 const Home = () => {
   return (
     <section>
       <section className="encabezado">
-        
-        <Header/>
-        <Nombre/>
+        <Header />
+        <Nombre />
         <section>
-        <Juego/>
+          <Juego />
         </section>
 
         <section>
-
-          <Targeta/>
-
+          <Targeta />
         </section>
-
       </section>
 
-      <Carrusel/>
+      <Carrusel />
 
-      <Quienes/>
-
+      <Quienes />
     </section>
-
-
-  )
+  );
 };
 
 export default Home;

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { getDocs, collection } from "firebase/firestore";
 import { dataBase } from "./config/LugaresConection";
+import React from "react";
 
 const Avatares = () => {
   const [avatares, setAvatares] = useState([]);

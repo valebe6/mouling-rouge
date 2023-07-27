@@ -1,8 +1,10 @@
+import React from "react";
 import Login from "./components/layouts/Login";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Lugares2 from "./components/layouts/Lugares";
 import Administrador from "./components/layouts/Admin/Administrador";
 import VistaCliente from "./components/layouts/VistaCliente";
+import Home from "./components/layouts/Home";
 
 const router = createBrowserRouter([
   {
@@ -22,8 +24,8 @@ const router = createBrowserRouter([
     element: <VistaCliente />,
   },
   {
-    path: '/seleccionar',
-    element:<Eleccion/>
+    path: "/home",
+    element: <Home />,
   },
 ]);
 

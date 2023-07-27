@@ -3,7 +3,7 @@ import { getDocs, collection } from "firebase/firestore";
 import { dataBase } from "./config/LugaresConection";
 import ReactPlayer from "react-player";
 import { Link } from "react-router-dom";
-
+import React from "react";
 const Lugares = () => {
   const [lugares, setLugares] = useState([]);
   const mostrarLugares = async () => {

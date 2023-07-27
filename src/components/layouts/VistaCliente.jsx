@@ -1,6 +1,7 @@
 import React from "react";
 import Lugares from "./Lugares";
 import Avatares from "./Avatares";
+import { Link } from "react-router-dom";
 
 const VistaCliente = () => {
   return (
@@ -11,6 +12,7 @@ const VistaCliente = () => {
       <section className="sectionAvatares">
         <Avatares />
       </section>
+      <section></section>
     </section>
   );
 };
