@@ -2,7 +2,7 @@ import Login from "./components/layouts/Login";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Lugares2 from "./components/layouts/Lugares";
 import Administrador from "./components/layouts/Admin/Administrador";
-import Avatares from "./components/layouts/Avatares";
+import VistaCliente from "./components/layouts/VistaCliente";
 
 const router = createBrowserRouter([
   {
@@ -18,8 +18,8 @@ const router = createBrowserRouter([
     element: <Administrador />,
   },
   {
-    path: "/avatares",
-    element: <Avatares />,
+    path: "/vista-cliente",
+    element: <VistaCliente />,
   },
 ]);
 
