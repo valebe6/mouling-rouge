@@ -21,6 +21,10 @@ const router = createBrowserRouter([
     path: "/vista-cliente",
     element: <VistaCliente />,
   },
+  {
+    path: '/seleccionar',
+    element:<Eleccion/>
+  },
 ]);
 
 function App() {
