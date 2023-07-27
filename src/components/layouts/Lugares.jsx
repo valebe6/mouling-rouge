@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { getDocs, collection } from "firebase/firestore";
 import { dataBase } from "./config/LugaresConection";
 import ReactPlayer from "react-player";
-import { Link } from "react-router-dom";
+
 import React from "react";
 const Lugares = () => {
   const [lugares, setLugares] = useState([]);
@@ -16,13 +16,13 @@ const Lugares = () => {
   }, []);
   return (
     <section>
-      <section>
+      <h1 className="titulo">LUGARES</h1>
+      <section className="contenedorCards">
         {lugares.map((item) => (
-          <section key={item.nombre} className="card">
-            <ReactPlayer url={item.video} />
+          <section key={item.nombre} className="cardLugares">
+            <ReactPlayer url={item.video} className="videoLugares" />
             <h1>{item.nombre}</h1>
             <p>{item.descripcion}</p>
-            <Link to={"https://wa.me/+573016365181"}>Reservar</Link>
           </section>
         ))}
       </section>

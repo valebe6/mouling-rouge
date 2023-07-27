@@ -1,25 +1,25 @@
-.headerAdmin {
+.headerAdmin{
     display: flex;
     background-color: black;
     height: 150px;
-
+    
 }
 
-.headerAdmin h1 {
+.headerAdmin h1{
     margin-top: 55px;
     color: rgb(200, 200, 96);
     margin-left: 15px;
     margin-right: 500px;
 }
 
-.headerAdmin button {
+.headerAdmin button{
     width: 90px;
     height: 50px;
     margin-left: 40px;
     margin-top: 55px;
 }
 
-.cerrar {
+.cerrar{
     display: flex;
     width: 90px;
     height: 48px;
@@ -35,55 +35,48 @@
 
 }
 
-.headerAdmin div {
+.headerAdmin div{
     width: 90px;
     height: 100px;
     margin-top: 20px;
     margin-left: 20px;
 }
 
-.avatar {
-    width: 100px;
-}
-
-body {
+body{
     background-color: rgb(0, 0, 0);
-}
-
-.encabezado {
+  }
+  .encabezado{
     position: fixed;
     display: flex;
     width: 1018px;
     height: 120px;
     background-color: rgb(0, 0, 0);
-    z-index: 3;
-    margin-top: -8%;
-
-}
-
-.contenedorLogo img {
+   z-index: 3;
+   margin-top: -8%;
+  
+  }
+  
+  .contenedorLogo img{
     width: 100px;
     margin-top: 18px;
     margin-left: 40px;
-}
-
-.nombre {
+  }
+  .nombre{
     margin-top: -2%;
     margin-left: 500px;
-}
-
-.nombre img {
+  }
+  
+  .nombre img{
     width: 250px;
-}
-
-.contenedorOpciones {
-
-    margin-top: 150px;
-    margin-left: -900px;
-
-}
-
-.boton {
+  }
+  
+  .contenedorOpciones{
+    
+   margin-top: 150px;
+   margin-left: -900px;
+  
+  }
+  .boton {
     color: #eadc16 !important;
     font-weight: 500;
     padding: 0.5em 1.2em;
@@ -94,81 +87,71 @@ body {
     padding: 7px;
     border-radius: 5px;
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.boton:hover {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .boton:hover{
     background: #bbb00d;
     color: #fff !important;
-}
-
-.botonJugar {
+  }
+  .botonJugar{
     text-decoration: none;
     color: #000000;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
-.contenedorCarrusel {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  .contenedorCarrusel{
     position: relative;
     width: 75%;
     border-radius: 10px;
     margin-top: 7%;
-}
-
-.contenedorCarrusel img {
+  }
+  .contenedorCarrusel img{
     height: 650px;
-}
-
-.anuncio {
+  }
+  
+  .anuncio{
     position: absolute;
     margin-left: 12%;
     width: 340px;
     height: 660px;
-    padding: 20px;
+    padding:20px;
     background-color: rgb(0, 0, 0);
     margin-top: 1%;
-}
-
-.anuncio img {
+  }
+  .anuncio img{
     width: 300px;
-}
-
-.posicionDescripcion {
+  }
+  
+  .posicionDescripcion{
     width: 1012px;
     padding: 40px;
     height: 400px;
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(109, 0, 0);
     color: aliceblue;
-
-}
-
-.BotonTrabaja {
+  
+  }
+  .BotonTrabaja{
     margin-left: 80%;
     width: 150px;
-
-}
-
-.BotonTrabaja button {
+  
+  }
+  .BotonTrabaja button{
     width: 200px;
     padding: 10px;
     border-radius: 5px;
-}
-
-.formulario {
+  }
+  .formulario{
     color: #000000;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.botonJugar {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .botonJugar{
     padding: 20px;
     width: 300px;
-
-}
-
-.botonInstrucciones {
+    
+  }
+  .botonInstrucciones{
     width: 270px;
     margin-left: 20px;
     padding: 10px;
@@ -177,27 +160,24 @@ body {
     color: rgb(0, 0, 0);
     border-color: rgb(0, 0, 0);
     font-size: 20px;
-}
-
-.contenedorInstrucciones {
+  }
+  .contenedorInstrucciones{
     margin-left: 30%;
     width: 500px;
     height: 800px;
     background-color: rgb(243, 1, 1);
-}
-
-.fondo {
+  }
+  .fondo{
     width: 100%;
     padding: 5px;
     background-color: rgb(115, 0, 0);
-}
-
-.contenedorSelecc {
+  }
+  .contenedorSelecc{
     margin-left: 20px;
     margin-top: 20px;
-}
-
-.botonSelecc {
+  }
+  
+  .botonSelecc{
     text-decoration: none;
     color: #eadc16 !important;
     font-weight: 500;
@@ -209,5 +189,100 @@ body {
     padding: 7px;
     border-radius: 5px;
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+.avatar{
+    width: 100px;
+}
+.cardAvatares, .cardLugares{
+    background-color: rgb(109, 0, 0);
+    color: white;
+
+}
+.contenedorCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cardLugares{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+.cardAvatares{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+.titulo{
+    color: white;
+    text-align: center;
+    margin: 2%;
+}
+.btnReservar{
+    display: flex;
+    border: 2px solid #eadc16;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    color: #eadc16;
+    align-items: center;
+    justify-content: center;
+}
+.btnReservar:hover{
+    background-color: #eadc16;
+    color: #000000;
+}
+.contenedorBtn{
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formularioLogin{
+    display: flex;
+    margin: 3%;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+.formularioLogin label{
+    color: white;
+}
+.btnLogin{
+    margin: 3%;
+    display: flex;
+    text-decoration: none;
+    border: 1px solid #eadc16;
+    border-radius: 5px;
+    width: 120px;
+    color: #eadc16;
+    justify-content: center;
+    align-items: center;
+}
+.btnLogin:hover{
+    background-color: #eadc16;
+    color: #000000;
+}
+.containerLogin{
+    display: flex;
+    justify-content: center;
+}
+.input{
+    width: 80%;
+}
+.imgLogin{
+   width: 100%;
 }

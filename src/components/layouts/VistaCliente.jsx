@@ -12,7 +12,11 @@ const VistaCliente = () => {
       <section className="sectionAvatares">
         <Avatares />
       </section>
-      <section></section>
+      <section className="contenedorBtn">
+        <Link className="btnReservar" to={"https://wa.me/3016365181"}>
+          Reserva ahora
+        </Link>
+      </section>
     </section>
   );
 };

@@ -15,9 +15,10 @@ const Avatares = () => {
   }, []);
   return (
     <section>
-      <section>
+      <h1 className="titulo">AVATARES</h1>
+      <section className="contenedorCards">
         {avatares.map((item) => (
-          <section key={item.nombre} className="card">
+          <section key={item.nombre} className="cardAvatares">
             <img src={item.imagen} alt="avatar" className="avatar" />
             <h1>{item.nombre}</h1>
           </section>
