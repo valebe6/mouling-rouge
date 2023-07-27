@@ -1,5 +1,5 @@
-import {Link} from 'react-router-dom'
-import logo from '../../assets/img/logo.png'
+import { Link } from "react-router-dom";
+import logo from "../../assets/img/logo.png";
 const Login = () => {
   return (
     <section>
@@ -9,7 +9,9 @@ const Login = () => {
         <input type="text" />
         <label>Contraseña</label>
         <input type="password" />
-        <Link to={'/home'} type="btnLogin">Iniciar Sesion</Link>
+        <Link to={"/home"} type="btnLogin">
+          Iniciar Sesion
+        </Link>
       </form>
     </section>
   );
